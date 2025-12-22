@@ -1,0 +1,12 @@
+# VS Code history
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if any)
+node_modules/
+
+# Logs
+*.log
