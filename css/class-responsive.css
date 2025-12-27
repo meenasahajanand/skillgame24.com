@@ -4,13 +4,13 @@
    ======================================== */
 
 /* Reset & Base Styles */
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Base Layout - Keep aside and section side by side */
+# Base Layout - Keep aside and section side by side 
 .main.container {
     display: flex;
     flex-direction: row;
@@ -37,7 +37,7 @@
     min-width: 0;
 }
 
-/* S_box Styles */
+# S_box Styles 
 .s_box {
     width: 100%;
     margin-bottom: 30px;
@@ -53,7 +53,7 @@
     color: #333;
 }
 
-/* Grid Layout for Category pages (.gri) */
+# Grid Layout for Category pages (.gri) 
 .gri {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -88,7 +88,7 @@
     object-fit: cover;
 }
 
-/* Box One - Homepage Recommended */
+# Box One - Homepage Recommended 
 .box_one {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -128,7 +128,7 @@
     object-fit: cover;
 }
 
-/* Box Two - Trending/Popular Games */
+# Box Two - Trending/Popular Games 
 .box_two {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -201,7 +201,7 @@
     gap: 5px;
 }
 
-/* Content Info */
+# Content Info 
 .content_info {
     width: 100%;
     overflow: hidden;
@@ -216,7 +216,7 @@
     font-weight: 500;
 }
 
-/* Ad Container */
+# Ad Container 
 .ad {
     display: flex;
     flex-direction: column;
@@ -243,7 +243,7 @@
     text-transform: uppercase;
 }
 
-/* Public Box Responsive Styles */
+# Public Box Responsive Styles 
 .public_box {
     width: 100%;
     max-width: 100%;
@@ -337,7 +337,7 @@
     height: auto;
 }
 
-/* Large Desktop - 1400px and above */
+# Large Desktop - 1400px and above 
 @media (min-width: 1400px) {
     .main.container {
         max-width: 1400px;
@@ -358,7 +358,7 @@
     }
 }
 
-/* Desktop - 1200px to 1399px */
+# Desktop - 1200px to 1399px 
 @media (max-width: 1399px) {
     .main.container {
         max-width: 1200px;
@@ -379,7 +379,7 @@
     }
 }
 
-/* Laptop - 992px to 1199px */
+# Laptop - 992px to 1199px 
 @media (max-width: 1199px) {
     .main.container {
         max-width: 1140px;
@@ -410,7 +410,7 @@
     }
 }
 
-/* Tablet - 768px to 991px - STILL SIDE BY SIDE */
+# Tablet - 768px to 991px - STILL SIDE BY SIDE 
 @media (max-width: 991px) {
     .main.container {
         max-width: 960px;
@@ -493,7 +493,7 @@
     .public_box h2 { font-size: 22px; }
     .public_box h3 { font-size: 20px; }
     .public_box h4 { font-size: 18px; }
-}
+} */
 
 /* Mobile Landscape / Small Tablet - 576px to 767px - STACK VERTICALLY */
 @media (max-width: 767px) {

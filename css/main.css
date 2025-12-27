@@ -83,7 +83,7 @@ button {
     text-align: center;
 }
 .aside .header .logo a img {
-    height: 100%;
+    /* height: 100%; */
     cursor: pointer;
 }
 .aside .header .search_box {
